@@ -34,14 +34,14 @@ var square4 = square(4)
 // so in js whenever a function is invoked ,A brand new EC is created inside callstack
 // it also have same like this EC,so it also have 2 phases as above, p1:num(undefined)=>p2:num(2), p1:ans(undefined)=>p2:ans(2*2=4)
 // whenever a return is called it return the EC where it is called, now square2(4)
-// after whole function is executed the EC for that will be deleted ,in here the 2nd EC is now deleted 
+// after whole function is executed the EC for that will be deleted from callstack ,in here the 2nd EC is now deleted 
 // again in square4 this hapens and now square4(16)
 // after all code executed the entire EC is get gone from callstack
 
-// callstack (its for managing EC,it folows stack data structure which is LIFO)
+// callstack (its for managing EC,it follows stack data structure which is LIFO)
 // ==========
 // =>call stack maintain the order of execution of EC
-// =>also known as [Execution Contxt Stack ,Program stack ,Controll stack, Runtime stack, Machine stack]
+// =>also known as [Execution Context Stack ,Program stack ,Controll stack, Runtime stack, Machine stack]
 
 // |        |
 // |        |
