@@ -19,8 +19,8 @@ var square4 = square(4)
 // EC=execution context
 // when we run this the EC is created.
 // There are 2 phases when running a js
-    // 1.Memory creation phase
-    // 2.Code Execution phase
+    // 1.Memory creation phase (MCP)
+    // 2.Code Execution phase (CEP)
 
 // Phase 1
 // ==========
