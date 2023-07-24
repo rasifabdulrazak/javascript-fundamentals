@@ -9,3 +9,6 @@ CallStack
 
 Hoisting
 ![hoisting](https://www.jsmount.com/wp-content/uploads/2019/08/Js-hoisting.png)
+
+Shadowing
+![shadowing](https://dev.to/naveenkamath/block-scope-and-shadowing-in-javascript-3dk7)
